@@ -1,0 +1,274 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Ubuntu+Mono|Raleway|Play&subset=latin,cyrillic");
+
+html, p, nav, section, article {
+  font-family: Play, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans", sans-serif;
+  font-weight: lighter;
+}
+
+.post-date {
+  font-family: Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+}
+
+
+h1.brand-title {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1.4rem;
+}
+
+h1.brand-title a {
+  text-decoration: none;
+}
+
+h1.brand-title .nav-item-separator {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+h2.brand-tagline {
+  font-size: 0.6rem;
+  margin-top: 0.25rem;
+}
+
+.brand-tagline {
+  font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 200;
+}
+
+.header .sidebarphoto {
+  width: 50px;
+  height: 50px;
+}
+
+
+.social-buttons {
+  font-size: 1.3rem;
+}
+
+.sidebar {
+  min-height: 350px;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  vertical-align: middle;
+  margin-top: 0.7rem;
+}
+
+.sidebar .copyright {
+  display: none;
+}
+
+.sidebar .copyright span {
+  display: none;
+}
+
+.copyright img {
+  vertical-align: text-top;
+}
+
+.post-title {
+  font-size: 1.4rem;
+}
+
+h1.post-title a {
+  color: #B72121;
+}
+
+.post-meta {
+  margin-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta .post-category {
+  color: #fff;
+}
+
+.post-categories {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.content {
+  max-width: 50rem;
+}
+
+.post {
+  line-height: 1.5rem;
+}
+
+.post p {
+  margin-bottom: 1rem;
+}
+
+.post blockquote {
+  font-style: italic;
+  background-color: #B37777;
+  margin: 1em 1em 1em 0;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 0.5rem;
+  line-height: 1.3rem;
+  border-radius: 5px;
+  display: table;
+  position: relative;
+}
+
+.post blockquote:before {
+  content: "\f10d";
+  font-family: fontawesome;
+  font-size: 1rem;
+  color: #2d303b;
+  color: #A00505;
+  display: block;
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+}
+
+.post blockquote p {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans", sans-serif;
+  color: #eee;
+  margin-bottom: 1rem;
+}
+
+.post blockquote p a {
+  color: #EFEAEA;
+}
+
+.post blockquote p a:hover {
+  color: #7F1000;
+}
+
+.image-on-right {
+  float: right;
+  margin-left: 1.5rem;
+}
+
+.post-summary {
+  margin-bottom: 1rem;
+}
+
+.read-more-link {
+  margin-top: -1rem;
+}
+
+.read-more-link a {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.pagination {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.pagination a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.older-posts {
+  float: left;
+}
+
+.newer-posts {
+  float: right;
+}
+
+.page-number {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.archive-list {
+  list-style-type: none;
+  line-height: 1.2rem;
+  padding-left: 0;
+}
+
+.archive-list>li {
+  display: inline;
+}
+
+.archive-list a {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans", sans-serif;
+}
+
+.archive-list time {
+  font-family: Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+}
+
+.archive-year {
+  font-family: Avenir, Corbel, "Ubuntu Mono", monospace;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: #7F1000;
+}
+
+@media (min-width: 48rem) {
+
+  .header {
+    margin: 0 2rem 0;
+    text-align: right;
+    height: 95%;
+  }
+
+  h1.brand-title {
+    padding-top: 0;
+  }
+
+  .nav {
+    margin-top: 20%;
+  }
+
+  .header .sidebarphoto {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+  .nav-item {
+    display: block;
+  }
+
+  .sidebar .copyright {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+    height: 1.5rem;
+    text-align: right;
+  }
+
+  .footer .copyright {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1028px) {
+  h1.brand-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    margin: 0 1rem 0;
+  }
+}
+
+@media (max-width: 30rem) {
+  .archive-list>li {
+    display: block;
+  }
+}
